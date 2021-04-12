@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+/home/adalberto/eclipse-workspace/projects/rootstack/geolocationmap/workspace/geolocation/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1016305790.index
+2444413250.index
+4047995193.index
+516796137.index
+3881273193.index
+2343505096.index
+1355411760.index
+3879196350.index
+2563742307.index
+1355411760.index

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+function login(){
+	var username = document.getElementById("username").value;
+	var password = document.getElementById("password").value;
+	
+	getData();
+}
+
+function getData(){
+	fetch('https://coding-test.rootstack.net')
+	.then((response) => {
+	  return response.text(); // or .text() or .blob() ...
+	})
+	.then((text) => {
+	  alert(text);
+	})
+	.catch((e) => {
+	  alert(e.message);
+	});
+}

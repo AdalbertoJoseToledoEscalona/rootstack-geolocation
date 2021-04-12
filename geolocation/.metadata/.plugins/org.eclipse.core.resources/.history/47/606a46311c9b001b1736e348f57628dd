@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package geolocation.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * @author adalberto
+ *
+ */
+@Controller
+public class GeolocationController {
+
+	/**
+	 * 
+	 */
+	public GeolocationController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+function login(){
+	
+}
+
+function getData(){
+	fetch('https://anypoint.mulesoft.com/mocking/api/v1/sources/vcs/projects/618af78e-d9ce-4901-a19f-7cf981eae7ed/master/m/test')
+	.then((response) => {
+	  return response.text(); // or .text() or .blob() ...
+	})
+	.then((text) => {
+	  alert(text);
+	})
+	.catch((e) => {
+	  alert(e.message);
+	});
+}

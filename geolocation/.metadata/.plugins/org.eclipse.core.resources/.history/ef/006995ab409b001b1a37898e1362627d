@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+//https://coding-test.rootstack.net
+function login(){
+	var username = document.getElementById("username").value;
+	var password = document.getElementById("password").value;
+	
+	alert(username);
+	alert(password);
+	
+	getData();
+}
+
+function getData(){
+	var xhr = new XMLHttpRequest();
+	xhr.addEventListener('load', function(e) {
+	  var response = e.target.responseText;
+		alert(response);
+	  console.log(response);
+	});
+	xhr.addEventListener('error', function(e) {
+	  console.error('Request error with status', e.target.status);
+	});
+	xhr.open('GET', 'https://coding-test.rootstack.net');
+	xhr.send();
+}

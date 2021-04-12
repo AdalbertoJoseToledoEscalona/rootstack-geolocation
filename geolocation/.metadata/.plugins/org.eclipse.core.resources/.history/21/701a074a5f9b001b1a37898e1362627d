@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+function getUsername(){
+	return getCookie("username");
+}
+
+function setUsername(username){
+	setCookie("username", username);
+}

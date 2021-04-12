@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/home/adalberto/eclipse-workspace/projects/rootstack/geolocationmap/workspace/geolocation/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2444413250.index
+/geolocation/src
+/home/adalberto/eclipse-workspace/projects/rootstack/geolocationmap/workspace/geolocation/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1355411760.index
+/geolocation/src
+/home/adalberto/eclipse-workspace/projects/rootstack/geolocationmap/workspace/geolocation/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2343505096.index
+/geolocation/src

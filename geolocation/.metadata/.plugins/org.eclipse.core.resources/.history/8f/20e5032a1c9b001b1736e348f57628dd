@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package geolocation.controller;
+
+/**
+ * @author adalberto
+ *
+ */
+public class GeolocationController {
+
+	/**
+	 * 
+	 */
+	public GeolocationController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map</title>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/map.js"></script>
+</head>
+<body>
+	<p>Click the button to get your coordinates.</p>
+
+	<button onclick="getLocation()">Try It</button>
+	
+	<p id="demo"></p>
+	<div id="mapholder"></div>
+</body>
+</html>
